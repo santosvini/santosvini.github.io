@@ -1,0 +1,90 @@
+.footer {
+  background: #000000;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.footer-texto {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+.footer-contato li {
+  display: inline-flex;
+  margin: 10px 12px;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.footer-contato li a {
+  font-size: 2.35rem;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-copyright {
+  grid-column: 1 / -1;
+  font-size: 1.125rem;
+  color: orangered;
+}
+
+ul li a .fa-twitter{
+  font-size: 2em;
+  color: #1da1f2;   
+}
+
+ul li a .fa-whatsapp{
+  font-size: 2em;
+  color: #25d366;   
+}
+
+ul li a .fa-github{
+  font-size: 2em;
+  color: #d3d3d3;   
+}
+
+ul li a .fa-instagram{
+  font-size: 2em;
+  color: #88126a;   
+}
+
+ul li::before .footer-contato{
+  font-family: fontAwesome;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  font-size: 2em;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato li a {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-contato li a {
+    font-size: 1.5rem;
+  }
+}

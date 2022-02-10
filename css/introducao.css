@@ -1,0 +1,77 @@
+.introducao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.introducao img {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  height: 22rem;
+  align-items: center;
+  border-radius: 140px;
+}
+
+.introducao h1 {
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.introducao h1::before {
+  content: '';
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url('../img/detalhe.svg') no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -30px;
+  z-index: -1;
+}
+
+.introducao p {
+  font-size: 1.5rem;
+  color: #525252;
+}
+
+/* Dimiuir a font para ponto de quebra */
+@media (max-width: 1000px) {
+  .introducao h1 {
+    font-size: 3rem;;
+  }
+}
+
+/* Imagem e texto ajustados */
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+  }
+  .introducao h1::before {
+    width: 30px;
+    height: 10px;
+    left: 4px;
+  }
+}
+
+/* Ajustando p/ ficar sem imagem e em coluna única */
+
+@media (max-width: 400px) {
+  .introducao {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .introducao img {
+    display: none;
+  }
+}

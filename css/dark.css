@@ -1,0 +1,63 @@
+body.dark  {
+  background-color: black;
+  color: #D5710D;
+}
+
+.dark .experiencia-texto {
+  color: white;
+}
+
+.dark .experiencia-texto strong {
+  color: gray;
+}
+
+.dark .curriculo a{
+  font-weight: 700;
+  background: #FFF;
+  color: #000;
+  gap: 10px 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.dark .formacao-container::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url('../img/detalhe2.svg') no-repeat center;
+  position: absolute;
+  bottom: -50px;
+  left: 50px;
+}
+
+.dark .portfolio .subtitulo {
+  color: #221F1E;
+  max-width: 5ch;
+}
+
+.dark .portfolio {
+  background-color: #D5710D;
+  color: black;
+}
+
+.dark .portfolio-texto {
+  font-weight: 600;
+  color: black;
+}
+
+.dark .portfolio-item span {
+  font-weight: bolder;
+  color: black;
+}
+
+.dark .portfolio-item a:hover {
+  color: black;
+}
+
+.dark button {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
