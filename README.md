@@ -1,6 +1,6 @@
 <center><h1>Portfolio VIUSDev</h1></center>
 
-<p>Projeto pessoal feito ao longo do curso da<a href="https://www.origamid.com/curso/html-e-css-para-iniciantes" target="_blank">Origamid.</a></p>
+<p>Projeto pessoal feito ao longo do curso da <a href="https://www.origamid.com/curso/html-e-css-para-iniciantes" target="_blank">Origamid.</a></p>
 
 <p>
   A <strong><a href="https://santosvini.github.io/" target="_blank">ViUsDev</a> será meu portfólio, como forma de uso para ser o meu currículo e experiências, de forma prática, moderna e acessível, caso queiram, tenho a opção de download do arquivo.
