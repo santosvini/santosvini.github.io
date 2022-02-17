@@ -27,6 +27,27 @@ img {
   display: block;
 }
 
+.scrollTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  background-color: #FFF;
+  border-radius: 4px solid #FFF;
+  transition: all 0.5s ease 0s;
+  height: 40px;
+  cursor: pointer;
+}
+
+.scrollTop:hover {
+  background-color: gray;
+}
+
+button > img {
+  height: 100%;
+  align-items: center
+}
+
 .subtitulo {
   font-size: 8rem;
   line-height: 1;
