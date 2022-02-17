@@ -72,3 +72,23 @@
     font-size: 1.25rem;
   }
 }
+
+@media (max-width: 400px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    padding: 15px 5px;
+    gap: 20px 
+  }
+  .portfolio .subtitulo {
+    margin-top: 55px;
+    color: #FFFFFF;
+  }
+  .portfolio-texto {
+    font-size: 1.05rem;
+  }
+  .portfolio-item li {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}

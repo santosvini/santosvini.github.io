@@ -51,6 +51,7 @@
 /* Imagem e texto ajustados */
 @media (max-width: 800px) {
   .introducao {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }

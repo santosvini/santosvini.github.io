@@ -76,6 +76,7 @@ ul li::before .footer-contato{
 button.top {
   display: block;
   position: absolute;
+  margin-top: 30px;
   max-width: 80%;
   height: 40px;
   padding: 10px;
@@ -100,6 +101,6 @@ button > img {
 
 @media (max-width: 400px) {
   .footer-contato li a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }

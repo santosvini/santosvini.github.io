@@ -3,7 +3,7 @@ body.dark  {
   color: #D5710D;
 }
 
-.dark .introducao h1::after {
+.dark .introducao h1::before {
   content: '';
   display: block;
   width: 130px;
@@ -72,4 +72,20 @@ body.dark  {
   background-color: #fff;
   color: black;
   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .dark .introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .dark .introducao h1 {
+    font-size: 2rem;
+  }
+  .dark .introducao h1::before {
+    width: 30px;
+    height: 10px;
+    left: 4px;
+  }
 }
