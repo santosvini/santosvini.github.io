@@ -11,14 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
-    <title>ViUs - Dev FrontEnd & QA</title>
+    <title>ViUs - DevFrontEnd & QA</title>
   </head>
-  <body id="body" class="dark">
+  <body id="body" class="light">
     <header class="header">
-      <img src="./img/Vius.jpeg" alt="VIUS" width="244" height="90"/>
+      <img src="./img/Vius.jpeg" alt="VIUS" width="220" height="90"/>
       <nav>
         <ul class="header-menu" id="nav">
-          <button onclick="toggleDarkMode()" name="dark_light">☀️ | 🌛</button>
+          <button onclick="toggleDarkMode()" class="darkmode" name="dark_light">☀️ | 🌛</button>
           <li><a href="#experiencia">Experiência</a></li>
           <li><a href="#formacao">Formação</a></li>
           <li><a href="#portfolio">Portfólio</a></li>
@@ -28,7 +28,7 @@
     </header>
 
     <main class="introducao">
-      <img src="./img/Vinícius.jpg" alt="Vinicius Santos" width="280" height="500" />
+      <img src="./img/Vinícius.jpg" alt="Vinicius Santos" width="230" height="200" />
       <div>
         <h1 id="title" >
          🖥️ Desenvolvedor<br />Front End &<br />Quality Assurance</h1>
@@ -163,7 +163,7 @@
             <li><a href="https://santosvini.github.io/collor-pallet/" target="_blank">Collor Pallet 🔗</a><span>Estudo</span></li>
             <li><a href="https://santosvini.github.io/imc/" target="_blank">IMC 🔗</a> <span>Estudo</span></li>
             <li><a href="https://github.com/santosvini/cypress-buger-eats" target="_blank">Cypress Discovery 🔗</a><span>QA Ninja</span></li>
-            <li><a href="https://inovacaotech.vercel.app/" target="_blank">Inovação Tech 🔗</a><span>Projeto Pessoal</span></li>
+            <!-- <li><a href="https://inovacaotech.vercel.app/" target="_blank">Inovação Tech 🔗</a><span>Projeto Pessoal</span></li> -->
             <li><a href="https://santosvini.github.io/projeto-android/" target="_blank">Site Android 🔗</a><span>Curso em Vídeo</li>
             <li><a href="https://santosvini.github.io/lampada/" target="_blank">Lâmpada 🔗</a><span>Estudo</span></li>
             <li><a href="https://challenges-vinisantos7.vercel.app/" target="_blank">Desafios 🔗</a><span>Curso em Video</span></li>
@@ -183,6 +183,9 @@
           <li><a href="https://api.whatsapp.com/send?phone=5511956092628&text=Ol%C3%A1!%20Vinicius" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
           <li><a href="https://github.com/santosvini" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
           <li><a href="https://www.instagram.com/viustecnologia/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <button onclick="scrollToTop()" class="top">
+            <img src="./img/outline_keyboard_arrow_up_black_24dp.png">
+          </button>
         </ul>
         <p class="footer-copyright">ViUs &copy; Direitos Reservados</p>
       </div>

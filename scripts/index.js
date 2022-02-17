@@ -4,3 +4,10 @@ function toggleDarkMode() {
 
   body.className = currentClass == "light" ? "dark" : "light"
 }
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+}

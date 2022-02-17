@@ -27,8 +27,14 @@ body {
   color: #D6D4D4;
 }
 
-.light button {
+.light .darkmode {
   background-color: black;
   color: white;
+  cursor: pointer;
+}
+
+button.top {
+  background: white;
+  color: black;
   cursor: pointer;
 }
