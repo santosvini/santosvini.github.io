@@ -31,8 +31,8 @@
 }
 
 .footer-contato li a {
-  font-size: 2.35rem;
-  color: #FFFFFF;
+  font-size: 2.2rem;
+  color: #FFF;
   text-decoration: none;
 }
 
@@ -44,23 +44,28 @@
 }
 
 ul li a .fa-twitter{
-  font-size: 2em;
+  font-size: 1.4em;
   color: #1da1f2;   
 }
 
 ul li a .fa-whatsapp{
-  font-size: 2em;
+  font-size: 1.4em;
   color: #25d366;   
 }
 
 ul li a .fa-github{
-  font-size: 2em;
+  font-size: 1.4em;
   color: #d3d3d3;   
 }
 
 ul li a .fa-instagram{
-  font-size: 2em;
+  font-size: 1.4em;
   color: #88126a;   
+}
+
+ul li a .fa-linkedin{
+  font-size: 1.4em;
+  color: #0A66C2;   
 }
 
 ul li::before .footer-contato{

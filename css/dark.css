@@ -3,6 +3,15 @@ body.dark  {
   color: #D5710D;
 }
 
+/* .dark .introducao img {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  height: 24rem;
+  align-items: center;
+  border-radius: 80px;
+}
+ */
 .dark .introducao h1::before {
   content: '';
   display: block;

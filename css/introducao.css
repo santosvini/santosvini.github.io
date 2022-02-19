@@ -3,7 +3,7 @@
   padding: 40px 20px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 4fr 8fr;
+  grid-template-columns: 2fr 4fr;
   gap: 60px;
   align-items: center;
 }
@@ -12,9 +12,10 @@
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;
-  height: 22rem;
+  height: 24rem;
   align-items: center;
-  border-radius: 140px;
+  justify-content: space-between;
+  border-radius: 100%;
 }
 
 .introducao h1 {

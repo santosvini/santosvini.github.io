@@ -30,21 +30,24 @@ img {
 .scrollTop {
   position: fixed;
   bottom: 30px;
-  right: 30px;
+  right: 18px;
   padding: 10px 15px;
-  background-color: #FFF;
-  border-radius: 4px solid #FFF;
+  background-color: transparent;
+  border-radius: 2px solid;
+  border-radius: 10px;
   transition: all 0.5s ease 0s;
   height: 40px;
   cursor: pointer;
 }
 
 .scrollTop:hover {
-  background-color: gray;
+  background-color: #FFF;
 }
 
 button > img {
-  height: 100%;
+  background-color: white;
+  height: 50%;
+  border-radius: 4px;
   align-items: center
 }
 
