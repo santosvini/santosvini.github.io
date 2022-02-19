@@ -40,6 +40,11 @@ img {
   cursor: pointer;
 }
 
+.scrollTop.active {
+  pointer-events: auto;
+  opacity: 0;
+}
+
 .scrollTop:hover {
   background-color: #FFF;
 }

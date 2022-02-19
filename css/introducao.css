@@ -9,13 +9,15 @@
 }
 
 .introducao img {
-  max-width: 1200px;
-  padding: 40px 20px;
+  max-width: 900px;
+  padding: 20px 10px;
   margin: 0 auto;
   height: 24rem;
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 30px;
   align-items: center;
   justify-content: space-between;
-  border-radius: 100%;
 }
 
 .introducao h1 {

@@ -5,12 +5,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
 }
 
 .header-menu {
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
+  align-items: center;
   justify-content: center;
 }
 
@@ -33,14 +35,15 @@
   text-decoration: none;
   color: black;
   display: block;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 @media (max-width: 700px) {
   .header {
     flex-direction: column;
-    gap: 40px;
-    padding: 20px;
+    gap: 60px;
+    padding: 10px;
+    align-items: center;
   }
   .header a {
     background: #f5f5f5;
