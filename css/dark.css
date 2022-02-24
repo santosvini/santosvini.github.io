@@ -3,15 +3,20 @@ body.dark  {
   color: #D5710D;
 }
 
-/* .dark .introducao img {
-  max-width: 1200px;
-  padding: 40px 20px;
+.dark .introducao img {
+  max-width: 900px;
+  padding: 20px 10px;
   margin: 0 auto;
   height: 24rem;
   align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
   border-radius: 80px;
 }
- */
+
 .dark .introducao h1::before {
   content: '';
   display: block;
@@ -29,7 +34,7 @@ body.dark  {
 }
 
 .dark .experiencia-texto strong {
-  color: gray;
+  color: #D5710D;
 }
 
 .dark .curriculo a{

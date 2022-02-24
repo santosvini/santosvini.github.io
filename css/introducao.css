@@ -14,7 +14,7 @@
   margin: 0 auto;
   height: 24rem;
   display: grid;
-  grid-template-columns: 2fr;
+  grid-template-columns: 1fr 2fr;
   gap: 30px;
   align-items: center;
   justify-content: space-between;
